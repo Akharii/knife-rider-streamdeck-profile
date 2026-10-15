@@ -1,0 +1,2 @@
+Pillow>=10
+resvg-py>=0.5      # font_dirs / skip_system_fonts

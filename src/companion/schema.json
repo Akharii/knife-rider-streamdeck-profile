@@ -1,0 +1,1037 @@
+{
+  "commands": [
+    {
+      "default_key": "V",
+      "id": "view_toggle",
+      "kind": "press",
+      "label_en": "Cockpit / external view (on foot: first / third person)",
+      "label_fr": "Vue cockpit / extérieure (à pied : 1re / 3e personne)",
+      "tab": "General"
+    },
+    {
+      "default_key": "F",
+      "id": "free_look",
+      "kind": "press",
+      "label_en": "Free look: the mouse turns the view, not the ship",
+      "label_fr": "Vue libre : la souris tourne la vue, plus le vaisseau",
+      "tab": "General"
+    },
+    {
+      "default_key": "Z",
+      "id": "zoom_toggle",
+      "kind": "press",
+      "label_en": "Zoom in / out",
+      "label_fr": "Zoom avant / arrière",
+      "tab": "General"
+    },
+    {
+      "default_key": "PageUp",
+      "id": "zoom_closer",
+      "kind": "press",
+      "label_en": "Zoom: closer",
+      "label_fr": "Zoom : plus près",
+      "tab": "General"
+    },
+    {
+      "default_key": "PageDown",
+      "id": "zoom_wider",
+      "kind": "press",
+      "label_en": "Zoom: wider",
+      "label_fr": "Zoom : plus loin",
+      "tab": "General"
+    },
+    {
+      "default_key": "F2",
+      "id": "practice_panel",
+      "kind": "press",
+      "label_en": "Team console: tuning, Armory, test bench",
+      "label_fr": "Console d'équipe : réglages, Armurerie, banc d'essai",
+      "tab": "General"
+    },
+    {
+      "default_key": "F9",
+      "id": "marker",
+      "kind": "press",
+      "label_en": "Mark this moment (flight recorder)",
+      "label_fr": "Marquer cet instant (enregistreur de vol)",
+      "tab": "General"
+    },
+    {
+      "default_key": "F10",
+      "id": "fps_display",
+      "kind": "press",
+      "label_en": "FPS display (client, server, both, off)",
+      "label_fr": "Affichage des FPS (client, serveur, les deux, rien)",
+      "tab": "General"
+    },
+    {
+      "default_key": "F6",
+      "id": "input_overlay",
+      "kind": "press",
+      "label_en": "Input overlay on / off (sticks, for streams)",
+      "label_fr": "Overlay des commandes affiché / caché (manches, pour le stream)",
+      "tab": "General"
+    },
+    {
+      "default_key": "Enter",
+      "id": "chat_open",
+      "kind": "press",
+      "label_en": "Write in the chat",
+      "label_fr": "Écrire dans le chat",
+      "tab": "General"
+    },
+    {
+      "default_key": "Home",
+      "id": "race_restart",
+      "kind": "press",
+      "label_en": "Race: restart before the start line (solo)",
+      "label_fr": "Course : repartir avant la ligne de départ (solo)",
+      "tab": "General"
+    },
+    {
+      "default_key": "End",
+      "id": "race_abandon",
+      "kind": "press",
+      "label_en": "Race: abandon the race",
+      "label_fr": "Course : abandonner la course",
+      "tab": "General"
+    },
+    {
+      "default_key": "Insert",
+      "id": "race_trace_gate",
+      "kind": "press",
+      "label_en": "Tracer: race start and gates (solo, team)",
+      "label_fr": "Traceur : départ et portes de course (solo, équipe)",
+      "tab": "General"
+    },
+    {
+      "default_key": "F11",
+      "id": "record_toggle",
+      "kind": "press",
+      "label_en": "Recording (fight or maneuver): start / stop (team)",
+      "label_fr": "Enregistrement (combat ou manœuvre) : démarrer / arrêter (équipe)",
+      "tab": "General"
+    },
+    {
+      "default_key": "W",
+      "id": "thrust_fwd",
+      "kind": "hold",
+      "label_en": "Thrust forward",
+      "label_fr": "Poussée avant",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "S",
+      "id": "thrust_back",
+      "kind": "hold",
+      "label_en": "Thrust reverse",
+      "label_fr": "Poussée arrière",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "A",
+      "id": "strafe_left",
+      "kind": "hold",
+      "label_en": "Strafe left",
+      "label_fr": "Strafe gauche",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "D",
+      "id": "strafe_right",
+      "kind": "hold",
+      "label_en": "Strafe right",
+      "label_fr": "Strafe droite",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Space",
+      "id": "strafe_up",
+      "kind": "hold",
+      "label_en": "Strafe up",
+      "label_fr": "Strafe haut",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Ctrl",
+      "id": "strafe_down",
+      "kind": "hold",
+      "label_en": "Strafe down",
+      "label_fr": "Strafe bas",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Q",
+      "id": "roll_left",
+      "kind": "hold",
+      "label_en": "Roll left",
+      "label_fr": "Roulis gauche",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "E",
+      "id": "roll_right",
+      "kind": "hold",
+      "label_en": "Roll right",
+      "label_fr": "Roulis droite",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Up",
+      "id": "pitch_up",
+      "kind": "hold",
+      "label_en": "Pitch: nose up",
+      "label_fr": "Tangage : nez vers le haut",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Down",
+      "id": "pitch_down",
+      "kind": "hold",
+      "label_en": "Pitch: nose down",
+      "label_fr": "Tangage : nez vers le bas",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Left",
+      "id": "yaw_left",
+      "kind": "hold",
+      "label_en": "Yaw left",
+      "label_fr": "Lacet à gauche",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Right",
+      "id": "yaw_right",
+      "kind": "hold",
+      "label_en": "Yaw right",
+      "label_fr": "Lacet à droite",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "Shift",
+      "id": "boost",
+      "kind": "hold",
+      "label_en": "Boost",
+      "label_fr": "Boost",
+      "tab": "Flight controls"
+    },
+    {
+      "default_key": "F7",
+      "id": "head_toggle",
+      "kind": "press",
+      "label_en": "Head tracking on / off",
+      "label_fr": "Suivi de tête activé / coupé",
+      "tab": "Head tracking"
+    },
+    {
+      "default_key": "F8",
+      "id": "head_center",
+      "kind": "press",
+      "label_en": "Recentre head tracking",
+      "label_fr": "Recentrer le suivi de tête",
+      "tab": "Head tracking"
+    },
+    {
+      "default_key": "",
+      "id": "fire",
+      "kind": "hold",
+      "label_en": "Fire all",
+      "label_fr": "Tir tout",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "1",
+      "id": "fire_group_1",
+      "kind": "hold",
+      "label_en": "Fire group 1 (the first kind of gun)",
+      "label_fr": "Tir groupe 1 (la première sorte d'arme)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "2",
+      "id": "fire_group_2",
+      "kind": "hold",
+      "label_en": "Fire group 2 (the second kind, if any)",
+      "label_fr": "Tir groupe 2 (la deuxième sorte, s'il y en a une)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "I",
+      "id": "tri_weapons",
+      "kind": "press",
+      "label_en": "Energy to weapons",
+      "label_fr": "Énergie vers les armes",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "J",
+      "id": "tri_engine",
+      "kind": "press",
+      "label_en": "Energy to engine",
+      "label_fr": "Énergie vers le moteur",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "L",
+      "id": "tri_shield",
+      "kind": "press",
+      "label_en": "Energy to shield",
+      "label_fr": "Énergie vers le bouclier",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "K",
+      "id": "tri_neutral",
+      "kind": "press",
+      "label_en": "Energy to neutral",
+      "label_fr": "Énergie au neutre",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "O",
+      "id": "capacitor_mode",
+      "kind": "press",
+      "label_en": "Capacitor: full / step mode",
+      "label_fr": "Capaciteur : mode plein / par crans",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "R",
+      "id": "crosshair_color",
+      "kind": "press",
+      "label_en": "Crosshair colour",
+      "label_fr": "Couleur du viseur",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "T",
+      "id": "conv_far",
+      "kind": "hold",
+      "label_en": "Convergence farther",
+      "label_fr": "Convergence plus loin",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "G",
+      "id": "conv_near",
+      "kind": "hold",
+      "label_en": "Convergence nearer",
+      "label_fr": "Convergence plus près",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Backspace",
+      "id": "eject",
+      "kind": "hold",
+      "label_en": "Eject (hold, without power)",
+      "label_fr": "S'éjecter (maintenir, sans énergie)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Delete",
+      "id": "self_destruct",
+      "kind": "press",
+      "label_en": "Self-destruct (press again to cancel)",
+      "label_fr": "Autodestruction (appuyer de nouveau pour annuler)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "3",
+      "id": "duel",
+      "kind": "press",
+      "label_en": "Contact: the wheel on the target (duel, friend, squad), accept, rematch (online)",
+      "label_fr": "Contact : la roue sur la cible (duel, ami, squad), accepter, revanche (en ligne)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "",
+      "id": "call_dismiss",
+      "kind": "press",
+      "label_en": "Dismiss the call (what holding Contact does)",
+      "label_fr": "Écarter l'appel (ce que fait le maintien de Contact)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 8",
+      "id": "target_front",
+      "kind": "press",
+      "label_en": "Target in front (nearest the reticle)",
+      "label_fr": "Cible en face (la plus proche du viseur)",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 8",
+      "id": "target_subsystem",
+      "kind": "press",
+      "label_en": "Target a subsystem",
+      "label_fr": "Cibler un sous-système",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 2",
+      "id": "target_attacker",
+      "kind": "press",
+      "label_en": "Nearest attacker, then the next",
+      "label_fr": "Attaquant le plus proche, puis le suivant",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 2",
+      "id": "target_of_target",
+      "kind": "press",
+      "label_en": "Target of the target",
+      "label_fr": "Cible de la cible",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "X",
+      "id": "target_prev",
+      "kind": "press",
+      "label_en": "Previous target",
+      "label_fr": "Cible précédente",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "X",
+      "id": "target_squad_prev",
+      "kind": "press",
+      "label_en": "Previous squad mate",
+      "label_fr": "Équipier précédent",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "C",
+      "id": "target_next",
+      "kind": "press",
+      "label_en": "Next target",
+      "label_fr": "Cible suivante",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "C",
+      "id": "target_squad_next",
+      "kind": "press",
+      "label_en": "Next squad mate",
+      "label_fr": "Équipier suivant",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 5",
+      "id": "target_clear",
+      "kind": "press",
+      "label_en": "Clear the target",
+      "label_fr": "Effacer la cible",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "Kp 5",
+      "id": "target_mark",
+      "kind": "press",
+      "label_en": "Mark the target for the squad",
+      "label_fr": "Marquer la cible pour la squad",
+      "tab": "Combat"
+    },
+    {
+      "default_key": "P",
+      "id": "engine_toggle",
+      "kind": "press",
+      "label_en": "Electronics, then engines (and back: engines, then electronics)",
+      "label_fr": "Électronique, puis moteurs (et retour : moteurs, puis électronique)",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "H",
+      "id": "headlights",
+      "kind": "press",
+      "label_en": "Headlights on / off",
+      "label_fr": "Phares allumés / éteints",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "N",
+      "id": "cabin_light",
+      "kind": "press",
+      "label_en": "Cockpit lighting on / off",
+      "label_fr": "Éclairage du cockpit allumé / éteint",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "B",
+      "id": "landing_gear",
+      "kind": "press",
+      "label_en": "Landing gear down / up",
+      "label_fr": "Train d'atterrissage sorti / rentré",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "Y",
+      "id": "exit_ship",
+      "kind": "press",
+      "label_en": "Leave the ship (stopped, in a hangar)",
+      "label_fr": "Sortir du vaisseau (arrêté, dans un hangar)",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "E",
+      "id": "interact",
+      "kind": "press",
+      "label_en": "On foot: take the ship, console or shop looked at",
+      "label_fr": "À pied : prendre le vaisseau, la console ou la boutique regardés",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "F3",
+      "id": "station_menu",
+      "kind": "press",
+      "label_en": "Open the maintenance station (stopped in its bay)",
+      "label_fr": "Ouvrir la station de maintenance (arrêté dans sa baie)",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "U",
+      "id": "turret_seat",
+      "kind": "press",
+      "label_en": "Crewed turret: take it / back to the pilot seat",
+      "label_fr": "Tourelle habitée : y aller / revenir au poste de pilotage",
+      "tab": "Ship commands"
+    },
+    {
+      "default_key": "M",
+      "id": "tablet_focus",
+      "kind": "press",
+      "label_en": "Tablet: take / give back the focus",
+      "label_fr": "Tablette : prendre / rendre la main",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Up",
+      "id": "tablet_up",
+      "kind": "press",
+      "label_en": "Tablet: up",
+      "label_fr": "Tablette : haut",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Down",
+      "id": "tablet_down",
+      "kind": "press",
+      "label_en": "Tablet: down",
+      "label_fr": "Tablette : bas",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Left",
+      "id": "tablet_left",
+      "kind": "press",
+      "label_en": "Tablet: left (previous tab)",
+      "label_fr": "Tablette : gauche (onglet précédent)",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Right",
+      "id": "tablet_right",
+      "kind": "press",
+      "label_en": "Tablet: right (next tab)",
+      "label_fr": "Tablette : droite (onglet suivant)",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Enter",
+      "id": "tablet_select",
+      "kind": "press",
+      "label_en": "Tablet: select",
+      "label_fr": "Tablette : valider",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Backspace",
+      "id": "tablet_back",
+      "kind": "press",
+      "label_en": "Tablet: back",
+      "label_fr": "Tablette : retour",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "Q",
+      "id": "tablet_tab_prev",
+      "kind": "press",
+      "label_en": "Visor: previous tab",
+      "label_fr": "Visière : onglet précédent",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "E",
+      "id": "tablet_tab_next",
+      "kind": "press",
+      "label_en": "Visor: next tab",
+      "label_fr": "Visière : onglet suivant",
+      "tab": "Tablet"
+    },
+    {
+      "default_key": "F12",
+      "id": "photo_mode",
+      "kind": "press",
+      "label_en": "Photo mode: on / off (Escape leaves it too)",
+      "label_fr": "Mode photo : entrer / sortir (Échap en sort aussi)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "F1",
+      "id": "photo_hide_ui",
+      "kind": "press",
+      "label_en": "Photo: hide / show the whole interface",
+      "label_fr": "Photo : cacher / montrer toute l'interface",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "P",
+      "id": "photo_capture",
+      "kind": "press",
+      "label_en": "Photo: take the picture (no interface on it)",
+      "label_fr": "Photo : prendre la photo (sans interface)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "Alt",
+      "id": "photo_slow",
+      "kind": "press",
+      "label_en": "Photo: slow (hold)",
+      "label_fr": "Photo : lent (maintenir)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "1",
+      "id": "photo_smooth_more",
+      "kind": "press",
+      "label_en": "Photo: softer moves (more smoothing)",
+      "label_fr": "Photo : mouvements plus doux (plus de lissage)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "2",
+      "id": "photo_smooth_less",
+      "kind": "press",
+      "label_en": "Photo: sharper moves (less smoothing)",
+      "label_fr": "Photo : mouvements plus vifs (moins de lissage)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "3",
+      "id": "photo_speed_down",
+      "kind": "press",
+      "label_en": "Photo: slower top speed",
+      "label_fr": "Photo : vitesse max plus basse",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "4",
+      "id": "photo_speed_up",
+      "kind": "press",
+      "label_en": "Photo: faster top speed",
+      "label_fr": "Photo : vitesse max plus haute",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "R",
+      "id": "photo_horizon",
+      "kind": "press",
+      "label_en": "Photo: horizon locked / free",
+      "label_fr": "Photo : horizon verrouillé / libre",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "Home",
+      "id": "photo_home",
+      "kind": "press",
+      "label_en": "Photo: back behind your ship",
+      "label_fr": "Photo : revenir derrière votre vaisseau",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "Pause",
+      "id": "photo_time",
+      "kind": "press",
+      "label_en": "Photo: freeze / run the time (solo)",
+      "label_fr": "Photo : figer / relancer le temps (solo)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "T",
+      "id": "photo_lock",
+      "kind": "press",
+      "label_en": "Photo: lock on the ship in front / free camera",
+      "label_fr": "Photo : verrouiller sur le vaisseau devant / caméra libre",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "5",
+      "id": "photo_blur_less",
+      "kind": "press",
+      "label_en": "Photo: less blur (depth of field, locked on a target)",
+      "label_fr": "Photo : moins de flou (profondeur de champ, verrouillé sur une cible)",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "6",
+      "id": "photo_blur_more",
+      "kind": "press",
+      "label_en": "Photo: more blur",
+      "label_fr": "Photo : plus de flou",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "7",
+      "id": "photo_depth_less",
+      "kind": "press",
+      "label_en": "Photo: shallower sharp zone",
+      "label_fr": "Photo : zone nette moins profonde",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "8",
+      "id": "photo_depth_more",
+      "kind": "press",
+      "label_en": "Photo: deeper sharp zone",
+      "label_fr": "Photo : zone nette plus profonde",
+      "tab": "Photo"
+    },
+    {
+      "default_key": "",
+      "id": "convergence_up",
+      "kind": "delta",
+      "label_en": "Convergence farther (one notch)",
+      "label_fr": "Convergence plus loin (un cran)",
+      "step_m": 50.0,
+      "tab": "Combat"
+    },
+    {
+      "default_key": "",
+      "id": "convergence_down",
+      "kind": "delta",
+      "label_en": "Convergence nearer (one notch)",
+      "label_fr": "Convergence plus près (un cran)",
+      "step_m": -50.0,
+      "tab": "Combat"
+    },
+    {
+      "default_key": "",
+      "id": "convergence",
+      "kind": "set",
+      "label_en": "Convergence distance",
+      "label_fr": "Distance de convergence",
+      "max_m": 1500.0,
+      "min_m": 100.0,
+      "note": "clamped to the ship's own bounds; refused while the convergence is AUTO",
+      "tab": "Combat",
+      "unit": "m"
+    }
+  ],
+  "contexts": [
+    "menu",
+    "foot",
+    "flight",
+    "flight_off",
+    "photo"
+  ],
+  "cv": 1,
+  "fields": [
+    {
+      "id": "context",
+      "label_en": "Where you are",
+      "label_fr": "Où vous êtes",
+      "type": "string",
+      "unit": ""
+    },
+    {
+      "id": "online",
+      "label_en": "Online",
+      "label_fr": "En ligne",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "head_tracking",
+      "label_en": "Head tracking",
+      "label_fr": "Suivi de tête",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "speed",
+      "label_en": "Speed",
+      "label_fr": "Vitesse",
+      "type": "number",
+      "unit": "m/s"
+    },
+    {
+      "id": "throttle",
+      "label_en": "Throttle",
+      "label_fr": "Gaz",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "boost",
+      "label_en": "Boost",
+      "label_fr": "Boost",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "energy_engine",
+      "label_en": "Engine energy",
+      "label_fr": "Énergie moteur",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "energy_weapons",
+      "label_en": "Weapon energy",
+      "label_fr": "Énergie armes",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "energy_shield",
+      "label_en": "Shield",
+      "label_fr": "Bouclier",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "hull",
+      "label_en": "Hull",
+      "label_fr": "Coque",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "station",
+      "label_en": "Station power",
+      "label_fr": "Courant de la station",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "engines",
+      "label_en": "Engines",
+      "label_fr": "Moteurs",
+      "type": "string",
+      "unit": ""
+    },
+    {
+      "id": "electronics",
+      "label_en": "Electronics",
+      "label_fr": "Électronique",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "gear",
+      "label_en": "Landing gear",
+      "label_fr": "Train d'atterrissage",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "headlights",
+      "label_en": "Headlights",
+      "label_fr": "Phares",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "cabin_light",
+      "label_en": "Cockpit lighting",
+      "label_fr": "Éclairage du cockpit",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "view_cockpit",
+      "label_en": "Cockpit view",
+      "label_fr": "Vue cockpit",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "g",
+      "label_en": "G load",
+      "label_fr": "Facteur de charge (g)",
+      "type": "number",
+      "unit": "g"
+    },
+    {
+      "id": "warp",
+      "label_en": "Warp",
+      "label_fr": "Warp",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "convergence",
+      "label_en": "Convergence",
+      "label_fr": "Convergence",
+      "type": "number",
+      "unit": "m"
+    },
+    {
+      "id": "convergence_auto",
+      "label_en": "Convergence AUTO",
+      "label_fr": "Convergence AUTO",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "capacitor_full",
+      "label_en": "Capacitor: full mode",
+      "label_fr": "Capaciteur : mode plein",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "fire_group",
+      "label_en": "Fire group held",
+      "label_fr": "Groupe de tir tenu",
+      "type": "number",
+      "unit": ""
+    },
+    {
+      "id": "charge",
+      "label_en": "Charge",
+      "label_fr": "Charge",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "beam",
+      "label_en": "Beam left",
+      "label_fr": "Rayon restant",
+      "type": "number",
+      "unit": "s"
+    },
+    {
+      "id": "target",
+      "label_en": "Target",
+      "label_fr": "Cible",
+      "type": "string",
+      "unit": ""
+    },
+    {
+      "id": "target_distance",
+      "label_en": "Target distance",
+      "label_fr": "Distance de la cible",
+      "type": "number",
+      "unit": "m"
+    },
+    {
+      "id": "photo",
+      "label_en": "Photo mode",
+      "label_fr": "Mode photo",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "photo_focal",
+      "label_en": "Photo: lens",
+      "label_fr": "Photo : focale",
+      "type": "number",
+      "unit": "mm"
+    },
+    {
+      "id": "photo_smoothing",
+      "label_en": "Photo: smoothing",
+      "label_fr": "Photo : lissage",
+      "type": "number",
+      "unit": "s"
+    },
+    {
+      "id": "photo_speed",
+      "label_en": "Photo: speed",
+      "label_fr": "Photo : vitesse",
+      "type": "number",
+      "unit": "m/s"
+    },
+    {
+      "id": "photo_horizon",
+      "label_en": "Photo: horizon locked",
+      "label_fr": "Photo : horizon verrouillé",
+      "type": "bool",
+      "unit": ""
+    },
+    {
+      "id": "photo_blur",
+      "label_en": "Photo: blur",
+      "label_fr": "Photo : flou",
+      "type": "number",
+      "unit": "%"
+    },
+    {
+      "id": "photo_depth",
+      "label_en": "Photo: depth",
+      "label_fr": "Photo : profondeur",
+      "type": "number",
+      "unit": "m"
+    },
+    {
+      "id": "photo_frozen",
+      "label_en": "Photo: time frozen",
+      "label_fr": "Photo : temps figé",
+      "type": "bool",
+      "unit": ""
+    }
+  ],
+  "tabs": [
+    {
+      "id": "General",
+      "label_en": "General",
+      "label_fr": "Général"
+    },
+    {
+      "id": "Flight controls",
+      "label_en": "Flight controls",
+      "label_fr": "Commandes de vol"
+    },
+    {
+      "id": "Head tracking",
+      "label_en": "Head tracking",
+      "label_fr": "Suivi de tête"
+    },
+    {
+      "id": "Combat",
+      "label_en": "Combat",
+      "label_fr": "Combat"
+    },
+    {
+      "id": "Ship commands",
+      "label_en": "Ship commands",
+      "label_fr": "Commandes vaisseau"
+    },
+    {
+      "id": "Mouse",
+      "label_en": "Mouse",
+      "label_fr": "Souris"
+    },
+    {
+      "id": "Tablet",
+      "label_en": "Tablet",
+      "label_fr": "Tablette"
+    },
+    {
+      "id": "Turret",
+      "label_en": "Turret",
+      "label_fr": "Tourelle"
+    },
+    {
+      "id": "Photo",
+      "label_en": "Photo",
+      "label_fr": "Photo"
+    },
+    {
+      "id": "Companion",
+      "label_en": "Companion",
+      "label_fr": "Companion"
+    }
+  ]
+}

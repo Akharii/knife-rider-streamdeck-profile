@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+build/
+# Polices : à récupérer soi-même, voir src/fonts/OU-LES-TROUVER.md
+*.ttf
